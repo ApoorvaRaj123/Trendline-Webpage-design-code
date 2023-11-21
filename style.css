@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(./Gilroy-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    padding: 3vw;
+}
+.nav1{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 0;
+}
+.colors{
+    background-color: #fff;
+    width: fit-content;
+    display: flex;
+
+}
+.color{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.navSearch{
+    display: flex;
+    gap: 2.4vw;
+}
+.navSearch h4{
+    font-weight: 600;
+    font-size: 0.9vw;
+}
+#ru{
+    font-weight: 100;
+}
+
+
+
+
+.nav2{
+    padding: 1vw 0;
+    /* background-color: blue; */
+    display: flex;
+    gap: 4vw;
+}
+.nav2 h3{
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#scroller{
+    /* background-color: red; */
+    padding: 1vw 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20vw;
+    overflow-x: auto;
+}
+#scroller::-webkit-scrollbar{
+    background-color: transparent;
+    height: 0.5vw;
+}
+#scroller::-webkit-scrollbar-thumb{
+    background-color: brown;
+}
+.one-scroller-name{
+    display: flex;
+    gap: 4vw;
+    margin-left: 20vw;
+}
+.sr-no{
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+.sr-name h1{
+    font-size: 7vw;
+    font-weight: 300;
+}
+.sr-name h5{
+    font-size: 1vw;
+    font-weight: 300;
+}
+#lasth1{
+    margin-right: 20vw;
+}
+
+
+#image-content{
+    height: 50.4vh;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+#image-content::-webkit-scrollbar{
+    display: none;
+}
+
+#image-content img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
